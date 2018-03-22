@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetTemplateSummary&k=1:
+  /?Action=GetTemplateSummary:
     get:
       summary: ' Get Template Summary '
       description: Returns information about a new or existing template
