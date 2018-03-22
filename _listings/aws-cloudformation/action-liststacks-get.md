@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListStacks&k=1:
+  /?Action=ListStacks:
     get:
       summary: ' List Stacks '
       description: Returns the summary information for stacks whose status matches
