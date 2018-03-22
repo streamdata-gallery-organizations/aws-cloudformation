@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeAccountLimits&k=1:
+  /?Action=DescribeAccountLimits:
     get:
       summary: ' Describe Account Limits '
       description: Retrieves your account's AWS CloudFormation limits, such as the
