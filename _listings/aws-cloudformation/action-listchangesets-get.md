@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListChangeSets&k=1:
+  /?Action=ListChangeSets:
     get:
       summary: ' List Change Sets '
       description: Returns the ID and status of each active change set for a stack
