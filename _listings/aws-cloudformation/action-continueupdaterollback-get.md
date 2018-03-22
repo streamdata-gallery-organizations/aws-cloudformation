@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ContinueUpdateRollback&k=1:
+  /?Action=ContinueUpdateRollback:
     get:
       summary: ' Continue Update Rollback '
       description: |-
