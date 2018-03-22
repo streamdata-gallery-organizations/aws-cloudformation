@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CancelUpdateStack&k=1:
+  /?Action=CancelUpdateStack:
     get:
       summary: ' Cancel Update Stack '
       description: Cancels an update on the specified stack
