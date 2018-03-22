@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateChangeSet&k=1:
+  /?Action=CreateChangeSet:
     get:
       summary: ' Create Change Set '
       description: Creates a list of changes for a stack
