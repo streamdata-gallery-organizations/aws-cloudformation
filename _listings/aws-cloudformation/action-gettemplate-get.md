@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetTemplate&k=1:
+  /?Action=GetTemplate:
     get:
       summary: ' Get Template '
       description: Returns the template body for a specified stack
