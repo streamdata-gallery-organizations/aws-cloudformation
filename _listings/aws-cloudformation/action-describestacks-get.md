@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeStacks&k=1:
+  /?Action=DescribeStacks:
     get:
       summary: ' Describe Stacks '
       description: Returns the description for the specified stack; if no stack name
