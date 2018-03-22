@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=EstimateTemplateCost&k=1:
+  /?Action=EstimateTemplateCost:
     get:
       summary: ' Estimate Template Cost '
       description: Returns the estimated monthly cost of a template
