@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeChangeSet&k=1:
+  /?Action=DescribeChangeSet:
     get:
       summary: ' Describe Change Set '
       description: Returns the inputs for the change set and a list of changes that
