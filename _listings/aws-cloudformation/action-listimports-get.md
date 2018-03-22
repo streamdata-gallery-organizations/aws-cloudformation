@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListImports&k=1:
+  /?Action=ListImports:
     get:
       summary: ' List Imports '
       description: Lists all stacks that are importing an exported output value
