@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ExecuteChangeSet&k=1:
+  /?Action=ExecuteChangeSet:
     get:
       summary: ' Execute Change Set '
       description: Updates a stack using the input information that was provided when
