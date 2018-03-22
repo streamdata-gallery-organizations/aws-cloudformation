@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateStack&k=1:
+  /?Action=UpdateStack:
     get:
       summary: ' Update Stack '
       description: Updates a stack as specified in the template
