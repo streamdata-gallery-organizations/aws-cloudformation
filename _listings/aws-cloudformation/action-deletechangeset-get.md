@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteChangeSet&k=1:
+  /?Action=DeleteChangeSet:
     get:
       summary: ' Delete Change Set '
       description: Deletes the specified change set
