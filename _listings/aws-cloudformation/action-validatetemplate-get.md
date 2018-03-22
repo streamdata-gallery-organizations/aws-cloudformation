@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ValidateTemplate&k=1:
+  /?Action=ValidateTemplate:
     get:
       summary: ' Validate Template '
       description: Validates a specified template
