@@ -4,7 +4,7 @@ url: aws-cloudformation.streamdata.gallery
 tag: AWS CloudFormation
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-entities
+github_user: streamdata-gallery-topics
 github_repo: aws-cloudformation
 github_branch: master
 collections:
